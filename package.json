@@ -1,0 +1,13 @@
+{
+  "name": "dpop-jwt-generator",
+  "version": "1.0.0",
+  "description": "A lightweight Node.js utility and server to generate DPoP (Demonstrating Proof-of-Possession) tokens using RSA-SHA256.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "cli": "node generate-dpop.js"
+  },
+  "keywords": ["dpop", "oauth2", "jwt", "api-security", "nodejs"],
+  "author": "Bandar Aljabr",
+  "license": "MIT"
+}
